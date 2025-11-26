@@ -10,5 +10,4 @@ export default defineConfig({
   site: "https://example.com",
   integrations: [mdx(), sitemap(), db()],
   output: "static",
-  adapter: cloudflare(),
 });
